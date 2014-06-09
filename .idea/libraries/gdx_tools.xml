@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="gdx-tools">
+    <CLASSES>
+      <root url="file://$USER_HOME$/bin/libGDX/libgdx-1.0.1/extensions/gdx-tools" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/bin/libGDX/libgdx-1.0.1/extensions/gdx-tools/sources" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/bin/libGDX/libgdx-1.0.1/extensions/gdx-tools" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/bin/libGDX/libgdx-1.0.1/extensions/gdx-tools/sources" recursive="false" type="SOURCES" />
+  </library>
+</component>
