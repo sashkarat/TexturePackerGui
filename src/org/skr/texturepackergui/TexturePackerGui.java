@@ -801,6 +801,9 @@ public class TexturePackerGui extends JFrame{
     }
 
     public static void main(String [] args) {
+
+        System.out.println("TexturePackerGui. ");
+
         SwingUtilities.invokeLater( new Runnable() {
             @Override
             public void run() {
