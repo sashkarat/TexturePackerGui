@@ -80,6 +80,7 @@ public class TexturePackerGui extends JFrame{
     private JButton btnNextPage;
     private JComboBox comboRegions;
     private JButton btnShowRegion;
+    private JPanel guiPanel;
 
 
     class ScalesTableModel extends AbstractTableModel {
@@ -232,7 +233,7 @@ public class TexturePackerGui extends JFrame{
         final LwjglAWTCanvas gdxCanvas = new LwjglAWTCanvas( gApp );
         gdxPanel.add(gdxCanvas.getCanvas(), BorderLayout.CENTER);
         pack();
-        setSize(1280, 900);
+        setSize(1280, 800);
 
         gApp.setAtlasLoadListener( new GdxApplication.AtlasLoadListener() {
             @Override
